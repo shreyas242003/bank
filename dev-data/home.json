@@ -1,0 +1,50 @@
+{
+  "carouselImages": [
+    "/public/images/carousel/carousel1.jpg",
+    "/public/images/carousel/carousel2.jpg"
+  ],
+  "homeLoanProducts": [
+    {
+      "name": "Superfast loans for your dream home",
+
+      "image": "/public/images/loan/home-loan.jpg"
+    },
+    {
+      "name": "Personal Loan",
+      "description": "Renovate or extend your home.",
+      "image": "/public/images/loan/personal-loan.jpg"
+    },
+    {
+      "name": "Get Loan against your property or refinance",
+      "description": "Get loan against your property or refinance your existing loan.",
+      "image": "/public/images/loan/loan-against-property.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "John Doe",
+      "testimonial": "Great service and support throughout the loan process!"
+    },
+    {
+      "name": "Jane Smith",
+      "testimonial": "For people like us with a busy schedule hassle-free service online without visiting the bank was really a lifesaver!."
+    },
+    {
+      "name": "George Brown",
+      "testimonial": "“ In this challenging situation, the entire process was carried out in a smooth way. Even the query raised was sorted out in a very short time with no hurdle. Every person involved in the inquiry procedures were courteous. ”",
+      "image": "/public/images/testimonial1.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "How to Apply for a Home Loan",
+      "content": "Applying for a home loan is easy with our step-by-step guide.",
+      "image": "/public/images/article1.jpg"
+    },
+    {
+      "title": "Benefits of Personal Loans",
+      "content": "Personal loans can help you in various financial needs.",
+      "image": "/public/images/article2.jpg"
+    }
+  ]
+}
