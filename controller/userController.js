@@ -27,7 +27,27 @@ exports.createUser = async (req, res) => {
   }
 };
 
-exports.getMe = (req, res, next) => {
-  req.params.id = req.user.id;
-  next();
+exports.getMe = async (req, res) => {
+  try {
+    const userId = req.user.id;
+    console.log("userId", req.user);
+    const user = await User.findById(userId).select("-password"); // Adjust the fields to exclude password or any sensitive data
+    if (!user) {
+      return res.status(404).json({
+        status: "fail",
+        message: "User not found",
+      });
+    }
+    res.status(200).json({
+      status: "success",
+      data: {
+        user,
+      },
+    });
+  } catch (err) {
+    res.status(500).json({
+      status: "error",
+      message: err.message,
+    });
+  }
 };

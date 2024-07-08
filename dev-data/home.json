@@ -3,23 +3,25 @@
     "/public/images/carousel/carousel1.jpg",
     "/public/images/carousel/carousel2.jpg"
   ],
-  "homeLoanProducts": [
-    {
-      "name": "Superfast loans for your dream home",
-
-      "image": "/public/images/loan/home-loan.jpg"
-    },
-    {
-      "name": "Personal Loan",
-      "description": "Renovate or extend your home.",
-      "image": "/public/images/loan/personal-loan.jpg"
-    },
-    {
-      "name": "Get Loan against your property or refinance",
-      "description": "Get loan against your property or refinance your existing loan.",
-      "image": "/public/images/loan/loan-against-property.jpg"
-    }
-  ],
+  "homeLoanProducts": {
+    "data": [
+      {
+        "name": "Superfast loans for your dream home",
+        "types": ["Home Loan", "Plot Loan", "Rural Loan", "NRI Loan"],
+        "image": "/public/images/loan/home-loan.jpg"
+      },
+      {
+        "name": "Personal Loan",
+        "types": ["Home Renovation", "Home Extension", "Top Up Loan"],
+        "image": "/public/images/loan/personal-loan.jpg"
+      },
+      {
+        "name": "Get Loan against your property or refinance",
+        "types": ["Loan Against Property", "Balance Loan Transfer"],
+        "image": "/public/images/loan/loan-against-property.jpg"
+      }
+    ]
+  },
   "testimonials": [
     {
       "name": "John Doe",
@@ -37,14 +39,36 @@
   ],
   "articles": [
     {
-      "title": "How to Apply for a Home Loan",
-      "content": "Applying for a home loan is easy with our step-by-step guide.",
-      "image": "/public/images/article1.jpg"
+      "title": "Home Finance",
+      "content": "The benefits of applying for a home loan in present times",
+      "image": "/public/images/articles/articles1.jpg"
     },
     {
-      "title": "Benefits of Personal Loans",
-      "content": "Personal loans can help you in various financial needs.",
-      "image": "/public/images/article2.jpg"
+      "title": "Home Finance  ",
+      "content": "A Quick Guide For First Time Home Buyers In India.",
+      "image": "/public/images/articles/articles2.jpg"
+    },
+    {
+      "title": "Home Finance  ",
+      "content": "Applying for a home loan - online vs offline",
+      "image": "/public/images/articles/articles3.jpg"
+    },
+    {
+      "title": "Home Finance",
+      "content": "Looking For A Housing Loan? Know About The Various Kinds Of Loans Available",
+      "image": "/public/images/articles/articles4.jpg"
     }
-  ]
+  ],
+  "banner": {
+    "data": [
+      {
+        "message": "Ask questions",
+        "image": "/public/images/flyer1.jpeg"
+      },
+      {
+        "message": "Open a New-Age",
+        "image": "/public/images/flyer2.jpeg"
+      }
+    ]
+  }
 }
